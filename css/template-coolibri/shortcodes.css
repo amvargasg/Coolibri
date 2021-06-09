@@ -1,0 +1,19 @@
+.dataFiles {
+    text-align: justify;
+}
+
+/*Shortcode dataJSON*/
+.dataJSON {
+    margin: 0;
+    padding: 0;
+}
+
+.split1JSON {
+    list-style: none;
+}
+
+.imagen_pagina {
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}

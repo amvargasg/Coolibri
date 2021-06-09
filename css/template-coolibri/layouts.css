@@ -1,0 +1,136 @@
+/* Configuración de todo el HTML */
+html{
+    position: relative;
+}
+
+/* LAYOUT */
+/**Layout encabezado*/
+.head__content{
+    display:flex;
+    justify-content:baseline;
+    background-color:rgb(50,50,50);
+    height:max-content;
+    margin: 0;
+    padding: 0;
+}
+
+.imagen-head1{
+    padding: 0;
+    margin: 0;
+    width: 17%;
+    order:1;
+    margin-left: 2rem;
+}
+
+.titulo-principal{
+
+    padding-top: 2.5rem;
+    margin:-2rem;
+    width: 80%;
+    height: 20%;
+    order:2;
+}
+
+.titulo-principal a h1{
+
+    color: rgb(239, 255, 252);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 3rem;
+    padding-top: 0.7rem;
+
+}
+
+.imagen-head2{
+    padding: 1rem 0rem 0rem 0rem;
+    margin-top:1rem;
+    width: 15%;
+    height: 15%;
+    order:3;
+}
+
+/**Layout body*/
+body {
+    background-color: white;
+    line-height: 1.5; /*Interlineado*/
+    margin: 0 auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.body__content{
+    display:flex;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-secundario{
+
+    /*color:rgb(44, 44, 44);*/
+    text-decoration: none; /*Link no subrayado*/
+    border-right-color: rgb(50, 50, 50);
+    border-right-width: 0.1rem;
+    border-right-style: solid;
+    background-color: white;
+    margin: 0;  
+    order: 0;
+    min-width: 20%;
+    max-width: 25%;
+    
+}
+
+.contenido-principal{
+    background-color: inherit;
+    color:rgb(40, 40, 40);
+    text-align: justify;
+    order: 1;
+}
+
+.content{
+    padding: 2rem;
+    text-align: justify;
+}
+/**Layout footer*/
+footer {
+
+    margin-top: 2rem;
+    padding: 0;
+    bottom: 0;
+    position: relative;  
+}
+
+.footer__content {
+
+    background-color: rgb(227, 227, 227);
+    display:flex;
+    margin: 0;
+    padding: 0;
+    color:rgb(40,40,40);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.footer_izquierda {
+
+    margin: 0;
+    padding: 0.5rem 0rem 0.5rem 0rem;
+    width: 80%;
+    order:0;
+
+}
+
+.footer_centro {
+
+    margin: 0rem;
+    padding: 0.5rem 0rem 0.5rem 0rem;
+    font-size: 80%;
+    width: 30%;
+    order:1;
+}
+
+.footer_derecha {
+
+    margin: 0rem;
+    padding: 3.5rem 0rem 0.5rem 0rem;
+    font-size: 80%;
+    width: 30%;
+    order:2;
+}
